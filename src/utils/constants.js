@@ -1,12 +1,12 @@
-const CANVAS_SIZE = [800, 800];
+const CANVAS_SIZE = [400, 400];
 const SNAKE_COLOR = '#750505';
 const FOOD_COLOR = '#02497b';
 const SNAKE_START = [
-    [8, 7],
-    [8, 8]
+    [4, 3],
+    [4, 4]
 ];
-const FOOD_START = [8, 3];
-const SCALE = 40;
+const FOOD_START = [2, 1];
+const SCALE = 20;
 const SPEED = 260;
 const DIRECTIONS = {
     40: [0, 1], // down

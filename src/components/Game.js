@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { useInterval } from "./useInterval";
+import { useInterval } from "../helper/useInterval";
 import {
     CANVAS_SIZE,
     SNAKE_COLOR,
@@ -9,13 +9,14 @@ import {
     SCALE,
     SPEED,
     DIRECTIONS
-} from "./constants";
-import Navbar from "./components/Navbar";
-import ButtonStart from "./components/start-btn";
-import GameOver from "./components/GameOver";
-import Score from "./components/Score";
-import "./App.css"
+} from "../utils/constants";
+import Navbar from "./Navbar";
+import ButtonStart from "./start-btn";
+import GameOver from "./GameOver";
+import Score from "./Score";
+import "./Game.css"
 /* eslint-disable */
+
 const Game = () => {
     const canvasRef = useRef();
     const [snake, setSnake] = useState(SNAKE_START);
@@ -152,7 +153,7 @@ const Game = () => {
                 <Score score={snake.length - 2} />
                 <div role="button" tabIndex="0" onKeyDown={e => moveSnake(e)}>
                     <canvas
-                        className="canvas col-xs-8 col-sm-8"
+                        className="canvas col-xs-4 col-sm-4"
                         ref={canvasRef}
                         width={`${CANVAS_SIZE[0]}px`}
                         height={`${CANVAS_SIZE[1]}px`}
