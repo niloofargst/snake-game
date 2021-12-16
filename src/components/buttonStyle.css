@@ -1,0 +1,15 @@
+.buttonStart {
+
+    background-color:#2f2f2f ;
+    color: rgb(206, 206, 206);
+    font-weight: bold;
+    border: none;
+        height: 3rem;
+    border-radius: 4px;
+    cursor: pointer;
+   margin: auto;
+    font-size: 1rem;
+    position: relative;
+    margin-bottom: 15%;
+}
+
