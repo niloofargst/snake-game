@@ -10,11 +10,11 @@ import {
     SPEED,
     DIRECTIONS
 } from "../utils/constants";
-import Navbar from "./Navbar";
+import Navbar from "./navbar/Navbar";
 import ButtonStart from "./start-btn";
 import GameOver from "./GameOver";
-import Score from "./Score";
-import "./Game.css"
+import Score from "./score/Score";
+import "./style/Game.css"
 /* eslint-disable */
 
 const Game = () => {
