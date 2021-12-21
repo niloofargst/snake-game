@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/gamoverstyle.css"
+import "./gamoverstyle.css"
 const GameOver = (props) => {
 
     return (

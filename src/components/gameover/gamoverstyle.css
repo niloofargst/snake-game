@@ -1,0 +1,13 @@
+.gameover {
+    color: rgb(148, 9, 9);
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4rem;
+    border-radius: 5px;
+margin-top: 2%;
+    width: 100%;
+
+    }
+    

@@ -12,7 +12,7 @@ import {
 } from "../utils/constants";
 import Navbar from "./navbar/Navbar";
 import ButtonStart from "./start-btn";
-import GameOver from "./GameOver";
+import GameOver from "./gameover/GameOver";
 import Score from "./score/Score";
 import "./style/Game.css"
 /* eslint-disable */

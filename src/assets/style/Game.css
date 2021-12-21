@@ -1,5 +1,6 @@
 body {
   background-color: rgb(187, 187, 187);
+  cursor: default;
 }
 
 .wrapper {
@@ -11,6 +12,7 @@ body {
   margin-top: -3%;
   position: relative;
   flex-direction: column;
+  cursor: default;
 }
 .canvas {
 
@@ -20,6 +22,7 @@ body {
   border: 8px solid #2f2f2f;
   width: 100%;
   position:relative;
+  cursor: default;
 }
 
 @media screen and (min-width: 515px){
