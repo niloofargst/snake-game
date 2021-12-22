@@ -1,6 +1,6 @@
 import React from "react";
 import "./Score.css"
-import coin from "../pics/coin.gif";
+import coin from "../../assets/pics/coin.gif"
 
 const Score = (props) => {
 

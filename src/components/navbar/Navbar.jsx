@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navstyle.css"
-import snake from '../pics/snake.gif';
+import snake from "../../assets/pics/snake.gif"
 
 const Navbar = () => {
     return (
